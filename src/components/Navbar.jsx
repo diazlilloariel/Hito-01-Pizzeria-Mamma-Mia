@@ -4,7 +4,7 @@ const Navbar = () => {
     const token = false
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar fondo-nav navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Pizzería Mamma Mia!
@@ -21,7 +21,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav me-auto">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
                 Home
@@ -58,7 +58,7 @@ const Navbar = () => {
               )
             }
           </ul>
-          <button className="btn btn-outline-light d-flex align-items-center ms-3 btn-price">
+          <button className="btn btn-outline-info d-flex align-items-center ms-3 btn-price">
             <i className="fas fa-shopping-cart me-2"></i>
             Total: { total.toLocaleString('es-CL', { style: 'currency', currency: 'CLP' }) }
           </button>

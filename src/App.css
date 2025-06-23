@@ -41,9 +41,13 @@
   color: #888;
 }
 
-.header-bg {
-  background-image: url('./assets/pizza-background.jpg');
+.header {
+  height: 16rem;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.719)), url('./assets/img/Header.jpg');
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
